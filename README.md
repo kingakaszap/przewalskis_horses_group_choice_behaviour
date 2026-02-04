@@ -21,7 +21,18 @@ parameters investigated call for a re-evaluation of current management tools com
 implemented to control wild horse populations such as contraception, and highlight the need 
 to acquire a more thorough understanding of equid behaviour. 
 
+## Key Results
+### Mares who are pregnant (a) or are nursing a foal (b) are more likely to stay in their groups.
+![Mares who are pregnant (a) or are nursing a foal (b) are more likely to stay in their groups.](age_specific_reproductive_effects.png)
 
+Age-specific effects of reproductive success as determined by a) pregnancy and b) a surviving foal. Bars show predicted probabilities, and error bars show 95% confidence intervals based on estimates of the final model (GLMM for binomial data, n(observations) = 2063, n(individuals) = 261, see Appendix 3  for model estimates and Appendix 1 for calculations.)
+
+### Mares who are in larger groups are more likely to leave their group.
+![Mares who are in larger groups are more likely to leave their group.](harem_size_effects.png)
+
+Relationship between harem size and the probability of changing groups in female Przewalski’s horses. The line shows model predictions (Effect size (on the log-odds scale, variable scaled): 0.187, SE = 0.046, see Appendix 3 ), and blue shaded area shows 95% confidence interval. Due to very few data points for harem size > 14 (see Appendix 2 for visual represetation), CI could not be accurately computed for this region.
+
+## Code
 [This](diss_code.R) script is the one I used to construct my variables and models.
 
 [This](example_cleaner_code) is an example script of how I cleaned the field data for analysis.
